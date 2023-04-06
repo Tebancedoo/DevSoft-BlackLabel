@@ -18,8 +18,7 @@ body {
 }
 
 .header {/*imagen de fondo en el header*/    
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
-    url(img/reynisfjara-black-sand-beach-waves-aerial-view-ocean-iceland-3992x2992-1332.jpg);
+    background-image: url("https://images.moqups.com/repo/fj5rIZcx7czYB7642M7vC1leUm4fjXfn/p_pGFL3DEmgwUDawtfFQHgdA3LtgMuy2gA/NWIjp4OLIwbymLuyWYC0dyTL5pTzl25Z.jpg?Expires=1681159366&Key-Pair-Id=K1TPUF1X6HKIYU&Signature=SaSRu~nibVw4tH3zTWs9GnB1dtj4aD9MjUHU3M8azWVIAQvGTW6NhTWUxNU1ECcRJLJTGN~p8PJsPJ6S4mHqmku31WY6-uDjkT1OL7AqZ5ASXs6pjru~Rtw1z7yKid~SF13DPUDqW6ji2QZFIXifh-wX-jM7GutD68Z-kPjQPg8P1vJjVnhDeP6hXOYCsWx9SUSeVcWtlgDcUzru4ZqZwUvkiyPHHvAvx4Wtv0mNIpLEx7EykA~pBJPzj2~W2W4zsfgU7M7AnyK0pYotGPOlh~D~003~cudCqLAGZ0~2W2ZZt0qx-9RZV68kkCS-LROPWu~3rFDTmubDJGBZY92~Ag__");
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -77,7 +76,6 @@ body {
 
 .header-content {
     text-align: center;
-    background-image: url(https://images.moqups.com/repo/fj5rIZcx7czYB7642M7vC1leUm4fjXfn/p_pGFL3DEmgwUDawtfFQHgdA3LtgMuy2gA/NWIjp4OLIwbymLuyWYC0dyTL5pTzl25Z.jpg?Expires=1681066682&Key-Pair-Id=K1TPUF1X6HKIYU&Signature=bxaIqGPfmVm0zdPpoLn-QrPNVc7WO8eefX77rta6qdt8BF6jT3iBhVycsTVAB~TyBf6Hcn5tk0nkcjfQ8ByXVHxm~n1RW6kcRszC2EYn8nmmywFHkYhnUwoDdKKMeNY1BEpJTcI7HBY2xyOLW8EKYOQJ8premc66yYH3Vz1uvJ2C2ODxBAddbacAIJE4ChmGWQoM2f7ajylqImxSrJducPlzw7dDaWk8Y4CjUOoQbkjLNPqgJFO2CMzCSNXEBLL2S-yNnIDgx7RnRITChd4QmZCv0n-y0mvRzT6nrrhsy~vz4VB3ZDGvJhOUcx-u5Hdky58wTsQEseF7B0VwxkoqYQ__);
     
 }
 
@@ -85,21 +83,21 @@ body {
     font-size: 56px;
     line-height: 80px;
     text-shadow: #000000;
-    color: white;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     margin-bottom: 35px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     background-color: rgb(0, 55, 72);
-    opacity: 59%;
-    border: #414247;
+    opacity: 49%;
+    border-color: #ffffff;
     
 }
 
 
 .header-content p {
     font-size: 42px;
-    color: #c5c5c5;
+    color: #ffffff;
     padding: 0px 250px;
     margin-bottom: 25px;
     
@@ -116,6 +114,7 @@ body {
     opacity: 100;
     font-family: Open Sans;
     border-radius: 25px;
+    border: #ffffff;
 
 } 
 
@@ -125,7 +124,6 @@ body {
 
 .BlackLabel {
     padding: 100px 0;
-    background-color: #E1E2E6;
     position: relative;
     
 }
@@ -293,7 +291,7 @@ p{
 
 .footer{
     padding: 100px 0px;
-    background-color:#000000;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/129/383/non_2x/smear-of-black-paint-on-a-white-panoramic-background-vector.jpg");
 }
 
 .footer-content{
@@ -420,10 +418,19 @@ p{
 
     .footer{
         padding: 30px;
-    }
 
-    .footer-content{
-        flex-direction: column;
-        text-align: center;
     }
+    .footer-content{
+        text-align: center;
+        display: flex;
+}
+}
+
+/*Css de los iconos*/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 200,
+  'opsz' 48
 }
