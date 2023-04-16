@@ -17,8 +17,7 @@ body {
     margin: 0 auto;
 }
 
-.header {/*imagen de fondo en el header*/    
-    background-image: url("https://images.moqups.com/repo/fj5rIZcx7czYB7642M7vC1leUm4fjXfn/p_pGFL3DEmgwUDawtfFQHgdA3LtgMuy2gA/NWIjp4OLIwbymLuyWYC0dyTL5pTzl25Z.jpg?Expires=1681159366&Key-Pair-Id=K1TPUF1X6HKIYU&Signature=SaSRu~nibVw4tH3zTWs9GnB1dtj4aD9MjUHU3M8azWVIAQvGTW6NhTWUxNU1ECcRJLJTGN~p8PJsPJ6S4mHqmku31WY6-uDjkT1OL7AqZ5ASXs6pjru~Rtw1z7yKid~SF13DPUDqW6ji2QZFIXifh-wX-jM7GutD68Z-kPjQPg8P1vJjVnhDeP6hXOYCsWx9SUSeVcWtlgDcUzru4ZqZwUvkiyPHHvAvx4Wtv0mNIpLEx7EykA~pBJPzj2~W2W4zsfgU7M7AnyK0pYotGPOlh~D~003~cudCqLAGZ0~2W2ZZt0qx-9RZV68kkCS-LROPWu~3rFDTmubDJGBZY92~Ag__");
+.header  {/*imagen de fondo en el header*/    
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
