@@ -16,6 +16,7 @@ section{
     display: flex;
     width: 400%;
     height: 400px;
+    margin-left: -100%;
 
 }
 .slider__section{
