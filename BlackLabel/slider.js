@@ -20,12 +20,12 @@ function Next(){
 
 function Prev(){
     let sliderSection = document.querySelectorAll(".slider__section"); 
-let sliderSectionLast = sliderSection[sliderSection.length -1];
-    slider.style.maginLeft = "-200%";
+    let sliderSectionLast = sliderSection[sliderSection.length -1];
+    slider.style.maginLeft = "0";
     slider.style.transition = "all 0.5s";
     setTimeout(function(){
     slider.style.transition = "none";
-    slider.insertAdjacentElement('beforeend', sliderSectionFirst);
+    slider.insertAdjacentElement('afterbegin', sliderSectionLast);
     slider.style.maginLeft = "-100%";
     }, 500);
 }
@@ -33,3 +33,11 @@ let sliderSectionLast = sliderSection[sliderSection.length -1];
 btnRight.addEventListener('click', function(){
     Next();
 });
+
+btnLeft.addEventListener('click', function(){
+    Prev();
+});
+
+setInterval(function(){
+    Next();
+},5000);
