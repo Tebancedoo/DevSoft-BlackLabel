@@ -17,7 +17,14 @@ body {
     margin: 0 auto;
 }
 
-.header  {/*imagen de fondo en el header*/    
+.headerproductos {
+margin: 100%;
+}
+
+
+
+.headerindex {/*imagen de fondo en el header*/    
+    background-image: url(imagenes/fondo_blacklabel.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
