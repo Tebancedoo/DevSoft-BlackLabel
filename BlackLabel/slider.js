@@ -30,14 +30,17 @@ function Prev(){
     }, 500);
 }
 
+//Función para mover el slider a la derecha 
 btnRight.addEventListener('click', function(){
     Next();
 });
 
+//Funci{on para mover el slider  la izuerda}
 btnLeft.addEventListener('click', function(){
     Prev();
 });
 
+//Función para que avance el slider solo
 setInterval(function(){
     Next();
 },5000);
