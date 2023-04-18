@@ -486,6 +486,8 @@ p{
 .conte .card a{
     font-weight: 500;
     text-decoration: none;
-    /*color: none;*/
-
+}
+a{
+    text-decoration: none;
+    color: #000000;
 }
